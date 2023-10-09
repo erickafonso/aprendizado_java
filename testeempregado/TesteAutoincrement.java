@@ -12,9 +12,10 @@ package com.mycompany.testeempregado;
 public class TesteAutoincrement {
      
      private int id = 0;
+     private static  int IDaux = 0;
 
     public TesteAutoincrement(){
-        id++;
+        this.id = IDaux++;
         
     }
     

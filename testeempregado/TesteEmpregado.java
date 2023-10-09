@@ -14,7 +14,16 @@ import java.util.ArrayList;
 public class TesteEmpregado {
 
     public static void main(String[] args) {
-        CriaEmpregado();
+        //CriaEmpregado();
+        TesteAutoincrement ob1 = new TesteAutoincrement();
+        System.out.println("ob1 = " + ob1.getId());
+        TesteAutoincrement ob2 = new TesteAutoincrement();
+        System.out.println("ob1 = " + ob1.getId());
+        System.out.println("ob2 = " + ob2.getId());
+        TesteAutoincrement ob3 = new TesteAutoincrement();
+        System.out.println("ob1 = " + ob1.getId());
+        System.out.println("ob2 = " + ob2.getId());
+        System.out.println("ob3 = " + ob3.getId());
         
     }
     public static void CriaEmpregado(){
